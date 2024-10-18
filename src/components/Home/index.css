@@ -1,3 +1,4 @@
+
 /* Write your CSS here */
 .home-route-container {
   display: flex;
@@ -32,12 +33,42 @@
   justify-content: center;
   align-items: center;
 }
-.ipl-dashboard-heading {
-  color: #ffffff;
-  font-family: 'Bree Serif';
-  padding-left: 10px;
-}
+
 .ipl-logo {
   width: 25px;
   height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-logo {
+    width: 60px;
+    height: 96px;
+  }
+}
+
+.ipl-dashboard-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-dashboard-heading {
+    font-size: 72px;
+    margin-left: 16px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.teams-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
 }
